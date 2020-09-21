@@ -1,0 +1,94 @@
+
+.headerBg {
+	position: absolute;
+	background: #0099AA;
+	width: 100%;
+	/* half of the title image (70% viewport width * image ratio * 1/2) */
+	height: calc(70vw*.3175*.5);
+	box-shadow: 0px 0px 10px;
+	top: 52px;
+}
+
+.title {
+	position: absolute;
+	top: 52px;
+	left: 15%;
+	width: 70%;
+}
+
+.title_shadow {
+	position: absolute;
+	top: 52px;
+	left: 15%;
+	width: 70%;
+}
+
+.main {
+	margin-top: calc(70vw*.3175 + 52px);
+	margin-bottom: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+	min-height: 75vh;
+}
+
+.article {
+	border: solid black 1px;
+	box-shadow: 0px 0px 5px;
+	margin-bottom: 40px;
+}
+
+.articleHeader {
+	font-weight: bold;
+	font-size: 32px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.articleDesc {
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+.descImg {
+	width: 24px;
+	margin-bottom: -6px;
+}
+
+.articleContent {
+	padding: 10px;
+	font-size: 18px;
+}
+
+.articleFooter {
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	text-align: right;
+}
+
+.articleBtn {
+	width: 40px;
+	height: 40px;
+	background: #0099AA;
+	border: none;
+	color: white;
+	padding: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.articleBtn:hover {
+	background: #22AABB;
+}
+.articleBtn:active {
+	background: #338899;
+}
+.articleBtn:focus {
+	outline: 0;
+}
+
+.separator {
+	background: black;
+	margin: 10px;
+	height: 1.5px;
+}

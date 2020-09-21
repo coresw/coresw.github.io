@@ -1,0 +1,84 @@
+
+.header {
+	margin-top: 52px;
+	background: #0099AA;
+	font-size: 32px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 6%;
+	padding-right: 6%;
+	box-shadow: black 0px 0px 10px;
+}
+
+.main {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: 15%;
+	margin-right: 15%;
+	min-height: 80vh;
+}
+
+.article {
+	border: solid black 1px;
+	box-shadow: 0px 0px 5px;
+	margin-bottom: 40px;
+}
+
+.articleHeader {
+	font-weight: bold;
+	font-size: 32px;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: black;
+	text-decoration: underline;
+}
+
+.articleDesc {
+	padding-left: 10px;
+	font-size: 16px;
+}
+
+.descImg {
+	width: 24px;
+	margin-bottom: -6px;
+}
+
+.articleContent {
+	padding: 10px;
+	font-size: 18px;
+}
+
+.articleFooter {
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	text-align: right;
+}
+
+.articleBtn {
+	width: 40px;
+	height: 40px;
+	background: #0099AA;
+	border: none;
+	color: white;
+	padding: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.articleBtn:hover {
+	background: #22AABB;
+}
+.articleBtn:active {
+	background: #338899;
+}
+.articleBtn:focus {
+	outline: 0;
+}
+
+.separator {
+	background: black;
+	margin: 10px;
+	height: 1.5px;
+}
