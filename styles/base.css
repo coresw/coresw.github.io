@@ -57,9 +57,22 @@ img {
 }
 
 .item {
-	
+	text-decoration: none;
 }
 
 .itemImg {
 	width: 32px;
+	display: inline-block;
+}
+
+.itemText {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	line-height: 34px;
+	height: 32px;
+}
+
+.nounderline {
+	text-decoration: none;
 }

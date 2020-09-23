@@ -10,6 +10,21 @@
 		<link rel="stylesheet" href="styles/base.css">
 		<link rel="stylesheet" href="styles/pages.css">
 		
+		<script>
+			
+			var name = "coresw";
+			var domain = ["protonmail", "com"];
+			
+			function showEMail(){
+				
+				var field = document.querySelector("#eMailField");
+				
+				field.innerHTML += name+String.fromCharCode(64)+domain.join(".");
+				
+			}
+			
+		</script>
+		
 	</head>
 	
 	<body>
@@ -49,13 +64,24 @@
 				Contacts / Follow me:
 			</div>
 			<div class="articleContent">
-				<ul>
-					<a><li class="item"><img class="itemImg" src="images/media_mail.png"></img> E-Mail</li></a>
-					<a><li class="item"><img class="itemImg" src="images/media_reddit.png"></img> Reddit</li></a>
-					<a><li class="item"><img class="itemImg" src="images/media_youtube.png"></img> YouTube</li></a>
-					<a><li class="item"><img class="itemImg" src="images/media_git.png"></img> Github?</li></a>
-					<a><li>Discord?</li></a>
-				</ul>
+				<div class="item">
+					<img class="itemImg" src="images/media_mail.png"></img>
+					<button class="itemText" onclick="showEMail();">SHOW E-MAIL</button>
+					<div id="eMailField" class="itemText"></div>
+				</div>
+				<a class="nounderline"><div class="item">
+					<img class="itemImg" src="images/media_reddit.png"></img>
+					<div class="itemText">Reddit (Coming soon...)</div>
+				</div></a>
+				<!--a><div class="item">
+					<img class="itemImg" src="images/media_youtube.png"></img>
+					<div class="itemText">YouTube</div>
+				</div></a>
+				<a><div class="item">
+					<img class="itemImg" src="images/media_git.png"></img>
+					<div class="itemText">Github</div>
+				</div></a-->
+				<!--a><li>Discord?</li></a-->
 			</div>
 		</div>
 		
