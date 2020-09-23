@@ -76,6 +76,12 @@
 	box-shadow: black 0px 0px 5px;
 }
 
+@media only screen and (max-width: 600px) {
+	.articleImage {
+		width: 100%;
+	}
+}
+
 .imageWrapper {
 	text-align: center;
 }
